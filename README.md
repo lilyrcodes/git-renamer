@@ -11,7 +11,13 @@ There are two modes of operation.
 
 ### Usage
 ```bash
-./rename.sh -o <old emails> -n <new email> -d <old names> -c <new name> -u <username> [--repo-names-file=<filename>]
+./rename.sh \
+  -o <old emails> \
+  -n <new email> \
+  -d <old names> \
+  -c <new name> \
+  -u <username> \
+  [--repo-names-file=<filename>]
 ```
 
 |Flag|Description|
